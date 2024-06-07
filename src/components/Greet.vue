@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref } from "vue";
 import { invoke } from "@tauri-apps/api/core";
+import { Button } from "./ui/button";
 
 const greetMsg = ref("");
 const name = ref("");
@@ -14,7 +15,7 @@ async function greet() {
 <template>
   <form class="row" @submit.prevent="greet">
     <input id="greet-input" v-model="name" placeholder="Enter a name..." />
-    <button type="submit">Greet</button>
+    <Button type="submit" variant="default">hehe</Button>
   </form>
 
   <p>{{ greetMsg }}</p>

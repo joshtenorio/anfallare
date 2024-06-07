@@ -1,13 +1,26 @@
-# Tauri + Vue + TypeScript
-
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
-
+# anfallare
+Like [bruno](https://usebruno.com) but for SQL queries.
+WIP
+## TODO
+mwe:
+- [ ] select a sqlite file
+- [ ] display/create tables
+- [ ] add/edit/remove records to tables
+- [ ] test/save queries locally
 ## Build Instructions
 ```bash
 $ pnpm install
 
 $ pnpm tauri dev
 ```
+## License
+GPL
+
+# Tauri + Vue + TypeScript
+
+This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+
+
 ## Recommended IDE Setup
 
 - [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
